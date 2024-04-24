@@ -1,0 +1,109 @@
+TESTING PENGURANGAN HP DI BATTLENYA KOK SUS, habis heal potion kok stuck di both 1000/1000
+
+Chaldea Simulator Guideline
+Dear asdos, mohon diread dengan patient, karena mechanic yang saya tambahkan lumayan kompleks
+
+🟢 Welcoming screen --!
+Now adds your FIRST ever Servant with Shielder class, Mash Kyrielight 3⭐ (NOT summonable)
+
+
+🟢 Player stats screen --!
+now divided into Master info + Add Saint Quartz and [L]earn about Servants (Codex)
+Potion, heals 20 HP --> Heal Potion, heals 200 HP
+Elixir, add 10 MP --> Elixir Potion, add 20 MP
+[NEW] Money display, which is called Saint Quartz 💎
+Gives the ability to 'cheat', can manually add Saint uartz
+Detail on Physical Attack, Meteor, and Shield moved to [L]earn about Servants (Codex)
+
+
+🟢 [NEW] Summon Servant --!
+Every gacha attempt --> 3 Saint Quartz
+Chances : 5⭐ (5%), 4⭐ (10%), 3⭐ (20%), 2⭐ (30%), 1⭐ (35%)
+Rarity doesn't affect the stats, just numbers
+The class will also be randomized, from Saber, Archer, Lancer, Rider, Caster, Assassin, and Berserker (NO Shielder, Shielder ONLY your FIRST servant from start). So the chance is 1 / 7 classes
+
+
+🟢 [NEW] All Servants --!
+Display all servants, with all their info and attributes.
+Use it to check, after you buy equipment, is it equipped yet!
+
+🟢 [NEW] Buy at Merchant's Shop --!
+0. There's chance of a 5 star servant ticket appearing, the class is still randomized (1 / 7), costs 100 SQ with 20% chance
+1. Heal potion, 5 SQ
+2. Elixir potion, 5 SQ
+Class Unique Equipment, will enable their noble phantasm, 1 equipment for 1 servant only, can only be equipped to the servant with correct class synergy. So Sword can only be given to Sabers. All 20 SQ
+3. Sword -- Saber
+4. Bow n Arrow -- Archer
+5. Spear -- Lancer
+6. Horse -- Rider
+7. Wand -- Caster
+8. Knife -- Assassin
+NO unique equipment for Berserker and Shielder
+
+
+🟢 Enemy Battle --!
+Choose a servant to fight with first! YOUR SERVANT ATTACK FIRST, THEN THE ENEMY 
+Any action/command would result in enemy attacking you, so after scanning vital, they would still attack you. EXCEPT if the Shield skill is active! If MP is not enough for Meteor or Shield, enemy would still attack. Wrong input won't make the enemy attack
+
+Physical attack, from 5pt damage, into 100 damage
+Meteor, from 50pt damage, into 250 damage
+Shield still the same, all mana/MP usages doesn't change from original
+
+So their action would now be, Physical attack, Meteor, Shield, use heal potion, use elixir potion, scan enemy's vital, and flee from battle. 
+For example, if servant has 800/1000 HP, then flee from battle, they would keep that stat permanently
+When you lost / defeated, the servant is gone and removed from the party array
+If flee from battle or back to menu, enemy will reset 
+
+Each enemy inheritance, has their own menu
+🧌 Troll - Forest of Troll
+HP : 1000, Atk : 100
+Troll has 70/30 chance of dealing normal attack, or dealing 3x damage to you
+Enemy drop : Gives you randomized 1-10 elixir potion + 50 SQ as a drop
+
+🪨 Golem - Golem Mountain
+HP : 1500, Atk : 100
+Golem has passive healing of 10% max HP every turn
+Enemy drop : Gives you randomized 1-10 heal potion + 50 SQ as a drop
+
+🪙 [NEW] Bandit - Thief Surprise
+HP : 1000, Atk : 100
+Bandit steals 10 SQ every turn, literally steals your money, they won't give it back
+Enemy drop : Gives you a mouthful randomized 200-500 SQ as a drop
+
+
+🟢 [NEW] Versus Wild Servant --!
+Choose a servant to fight with first! YOUR SERVANT ATTACK FIRST, THEN THE ENEMY WILD SERVANT
+Rarity are just numbers, there's no special stats. Wild enemy servant will all have flat 3⭐ rarity.
+Wild servant will always have their equipment equipped, so they can use Noble Phantasm from start, but still needs to recharge their NP_gauge to 100%
+Wild servant still has random mechanic, selecting from the 7 classes (except Shielder again)
+When you lost / defeated, the servant is gone and removed from the party array
+If flee from battle or back to menu, enemy will reset
+
+Physical attack, Meteor, and Shield are all Unavailable to use. MP or mana mechanic is now replaced with Noble Phantasm (NP) gauge
+So their action would now be, deal servant skill, use heal potion, and flee from battle. 
+For example, if servant has 800/1000 HP, then flee from battle, they would keep that stat permanently
+Wrong input won't make the enemy attack!
+
+[NEW] Noble Phantasm, can be used if equipment is true or equipped. Berserker and Shielder DON'T have unique equipment thus NP too
+When the condition is met, the 0. Launch Noble Phantasm action will appear. Launching it will reset NP gauge back to 0%
+
+As wild servant, when defeated, will drop flat 300 SQ + 5 heal potion + 5 elixir potion.
+
+The details on each Servant skill, NP, and Type Chart is explained to the user in the [L]earn about Servants (Codex) menu! 
+But here it is,
+
+Every skill attack, will charge NP gauge randomly from 20 - 50%
+🛡️ Shielder : Neutral, has passive healing 10% of HP every turn, NOT summonable, NO NP, No Equipment
+⚔️ Saber : strong against Lancer (1.5x damage), NP : Increase attack stat permanently (even after battle) by 50%
+🏹 Archer : strong against Saber (1.5x damage), NP : Deal attack with 5x damage
+🗡️ Lancer : strong against Archer (1.5x damage), NP : Heals 70% HP and deal 2.5x damage!
+🏇 Rider : strong against Caster (1.5x damage), NP : Heal 100% HP
+🧙 Caster : strong against Assassin (1.5x damage), NP : Heals 50% HP and deal 3.0x damage
+🔪 Assassin : strong against Rider (1.5x damage), NP : 50% chance to instant kill enemy
+👹 Berserker : strong against anyone, except Shielder (2x damage), NO NP, No Equipment
+
+TYPE CHART, strong against (-->) deal 1.5x damage on skill (Noble Phantasm NOT Included)
+Saber --> Lancer --> Archer --> Saber
+Rider --> Caster --> Assassin --> Rider
+Berserker --> (2.0x damage) ALL, except Shielder
+Shielder (neutral, all 1.0x damage)

@@ -1,0 +1,9 @@
+entrypoint = "main.swift"
+
+compile = "swiftc -o main main.swift ./Other_Kelazz/*.swift ./Servants/*.swift"
+run = "./main" 
+
+modules = ["swift"]
+
+[nix]
+channel = "stable-23_05"
